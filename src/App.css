@@ -1,0 +1,86 @@
+body {
+  /* Set a dark background for the whole page */
+  background-color: #121212;
+  color: #fff; /* Light text color for dark background */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+main {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1; /* Reset line height to normal for proper vertical alignment */
+  padding-top: 20vh; /* Push the content down a bit */
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2c2c2c; /* Darker color for modal background */
+  padding: 2rem;
+  border-radius: 8px; /* Optional: border-radius for modal */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Optional: adding some shadow to the modal */
+  z-index: 2;
+}
+
+.modal h2 {
+  color: #76ff03; /* Giving the title a slightly bright color for contrast */
+}
+
+.modal span {
+  word-break: break-word;
+}
+
+.modal label {
+  color: #ddd; /* Light color for labels */
+}
+
+.modal canvas {
+  margin-bottom: 10px;
+}
+
+.modal input {
+  background-color: #333;
+  border: 1px solid #444;
+  color: #ddd; /* Light color for input text */
+  margin-bottom: 1rem; /* Space out elements */
+  margin-top: 1rem;
+}
+
+.modal input:focus {
+  outline-color: #76ff03; /* Highlight color for focusing on inputs */
+}
+
+.modal button {
+  background-color: #333; /* Dark buttons */
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem; /* Space out buttons */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.modal button:hover {
+  background-color: #454545; /* Slightly lighter on hover */
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #454545;
+}
